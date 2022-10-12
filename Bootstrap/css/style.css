@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+.navbar .navbar-header,
+.navbar-nav {
+    margin: 0px;
+}
+
+.navbar-collapse {
+    float: none;
+    display: inline;
+    vertical-align: top;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.nav-tabs.nav-justified {
+    width: auto;
+    border-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    display: block;
+    overflow-x: invisible;
+    overflow-y: auto;
+  }
+}
+
+.bg-1 {
+  background-color: #780e22;
+  color: #df0000;
+}
+
+.bg-2 {
+  background-color: #780e22;
+  color: #df0000;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+  /*estilo banner carrusel*/
+  background-image: none;
+  color: #7676ad;
+}
+
+.carousel-indicators li {
+  border-color: #7676ad;
+  margin-bottom: 20px;
+}
+
+.carousel-indicators li.active {
+  background-color: #7676ad;
+  margin-bottom: 20px;
+}
+
+.item h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic;
+  margin: 70px;
+}
+
+.item span {
+  font-style: normal;
+}
+
+button {
+  /*estilo mi boton on click*/
+  border-radius: 500px;
+  background-color: black;
+  color: #fff;
+}
+
+.bg-4 {
+  background-color: black;
+  color: #fff;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar {
+  font-family: "Press Start 2P", cursive;
+  font-size: 15px;
+  line-height: 0;
+  color: black;
+  background-color: #fff;
+  margin-bottom: 0px;
+  border: 0px solid transparent;
+}
+
+.texto1{
+    font-family: "Press Start 2P", cursive;
+    font-size: calc(100% + 1vw + 1vh);
+    margin: 5%;
+
+}
+.texto2{
+    font-family: "VT323", monospace;
+    font-size: 3.4vh;
+    text-align: justify;
+    margin: 3.8% 10%;
+
+}
+
+.col-6{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+li{
+    background-color: #ECCCFE;
+}
+.active2{
+    background-color: #e8ffa8;
+}
+
+.row{
+  height: 95vh;
+}
+.h-100{
+  height: 100%;
+}
+.h-50{
+  height: 60%;
+}
